@@ -1,0 +1,65 @@
+.contentCard {
+    width: 100% !important;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 24px;
+    .ant-collapse {
+        margin-top: 1rem;
+        p,h5{
+            padding: 15px;
+        }
+    }
+    .ant-card-meta {
+        display: flex;
+        flex-direction: column;
+        .ant-card-meta-avatar{
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            .ant-avatar {
+                width: fit-content;
+                border-radius: 0%;
+            }
+            .ant-tag {
+                color: #00B4CC ;
+                background: #d9f8fc;
+                border-color: #fff;
+                border: 1px solid;
+            }
+        
+    }
+    }
+    h5 {
+        font-weight: bolder; 
+    margin-top: 1rem;   }
+}
+.ant-empty{
+    margin-top: 5rem !important;
+}
+.textSearch {
+        margin-top:  1rem;
+        border: none !important;
+   .ant-input {
+        width: 100%;
+        border: 3px solid #00B4CC !important;
+        border-right: none;
+        border-radius: 5px 0 0 5px;
+    }
+    .ant-input-suffix{
+        margin:0;
+        .anticon {
+            width: 44px;
+        }
+        width: 44px;
+        height: 44px;
+        border: 1px solid #d9f8fc;
+        background: #00B4CC;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        font-size: 20px;
+    }
+}
+.cardCentred {
+    margin-top: 1rem;
+    padding: 10px;
+}
