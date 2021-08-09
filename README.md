@@ -13,7 +13,7 @@ npm version => 6.14.11
 # start app
 
 
-> git clone https://github.com/12mouna/test
+> git clone https://github.com/12mouna/TestSearch
 
 > cd test
 
